@@ -17,5 +17,5 @@ func main() {
 
 func handleGetUp(w http.ResponseWriter, _ *http.Request) {
 	w.WriteHeader(http.StatusOK)
-	w.Write([]byte("it's up!"))
+	w.Write([]byte("it's up! using version 2.0"))
 }
